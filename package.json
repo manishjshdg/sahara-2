@@ -1,0 +1,34 @@
+{
+  "name": "sahara2",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node start-dev.js",
+    "server": "node server.js",
+    "client": "node ./node_modules/vite/bin/vite.js --port 3000",
+    "build": "node ./node_modules/vite/bin/vite.js build",
+    "preview": "node ./node_modules/vite/bin/vite.js preview",
+    "mobile": "cd mobile && node ./node_modules/expo/bin/cli start",
+    "mobile:android": "cd mobile && node ./node_modules/expo/bin/cli run:android",
+    "mobile:check": "cd mobile && node ./node_modules/typescript/bin/tsc --noEmit",
+    "test": "node tests/sahara_test_suite.js",
+    "push": "node \"C:\\Users\\Chandu\\.gemini\\antigravity-ide\\brain\\da4b6391-4182-4005-ba38-19952202cfa0\\scratch\\push_to_github.js\""
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.5.2",
+    "@capacitor/core": "^8.5.2",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "lucide-react": "^0.475.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^8.5.2",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "@vitejs/plugin-react": "^6.1.1",
+    "vite": "^8.3.0"
+  }
+}

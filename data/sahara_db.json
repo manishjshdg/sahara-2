@@ -1,0 +1,2057 @@
+{
+  "users": [
+    {
+      "id": "usr_demo_1",
+      "email": "survivor@sahara.care",
+      "password": "password123",
+      "role": "user",
+      "name": "Ananya Rao",
+      "createdAt": "2026-09-01T08:00:00.000Z"
+    },
+    {
+      "id": "usr_prof_1",
+      "email": "dr.radhika@sahara.care",
+      "password": "password123",
+      "role": "professional",
+      "name": "Dr. Radhika Sharma",
+      "createdAt": "2026-08-15T09:00:00.000Z"
+    },
+    {
+      "id": "usr_prof_2",
+      "email": "suresh.social@sahara.care",
+      "password": "password123",
+      "role": "professional",
+      "name": "K. Suresh (MSW)",
+      "createdAt": "2026-08-15T09:00:00.000Z"
+    },
+    {
+      "id": "usr_org_1",
+      "email": "admin@hopefoundation.org",
+      "password": "password123",
+      "role": "org_admin",
+      "name": "Hope Recovery Alliance Admin",
+      "createdAt": "2026-07-01T10:00:00.000Z"
+    }
+  ],
+  "profiles": [
+    {
+      "userId": "usr_demo_1",
+      "displayName": "Ananya",
+      "phone": "+91 98765 43210",
+      "language": "en",
+      "voiceLanguage": "en-US",
+      "baselineEstablished": true,
+      "baselineDaysCount": 14,
+      "privacyLevel": "strict",
+      "emergencyContactsConsent": true,
+      "locationSharingConsent": false,
+      "notificationsEnabled": true,
+      "highContrast": false,
+      "reducedMotion": false,
+      "lastLogin": "2026-09-25T07:24:12.376Z",
+      "updatedAt": "2026-09-25T07:48:49.670Z"
+    }
+  ],
+  "consents": [
+    {
+      "id": "cst_1",
+      "userId": "usr_demo_1",
+      "consentType": "data_processing_and_support",
+      "granted": true,
+      "updatedAt": "2026-09-01T08:05:00.000Z"
+    },
+    {
+      "id": "cst_2",
+      "userId": "usr_demo_1",
+      "consentType": "emergency_contact_dispatch",
+      "granted": true,
+      "updatedAt": "2026-09-01T08:05:00.000Z"
+    },
+    {
+      "id": "cst_3",
+      "userId": "usr_demo_1",
+      "consentType": "temporary_live_location_sharing",
+      "granted": false,
+      "updatedAt": "2026-09-01T08:05:00.000Z"
+    }
+  ],
+  "checkins": [
+    {
+      "id": "chk_d1",
+      "userId": "usr_demo_1",
+      "timestamp": "2026-09-19T08:30:00.000Z",
+      "date": "2026-09-19",
+      "overallScore": 8,
+      "mood": 8,
+      "stress": 3,
+      "sleep": 8,
+      "safety": 9,
+      "social": 7,
+      "fear": 2,
+      "functioning": 8,
+      "energy": 7,
+      "notes": "Walked in the park, felt grounded.",
+      "wantsHumanSupport": false
+    },
+    {
+      "id": "chk_d2",
+      "userId": "usr_demo_1",
+      "timestamp": "2026-09-20T08:45:00.000Z",
+      "date": "2026-09-20",
+      "overallScore": 7,
+      "mood": 7,
+      "stress": 3,
+      "sleep": 7.5,
+      "safety": 9,
+      "social": 7,
+      "fear": 3,
+      "functioning": 8,
+      "energy": 7,
+      "notes": "Did drawing for 20 mins.",
+      "wantsHumanSupport": false
+    },
+    {
+      "id": "chk_d3",
+      "userId": "usr_demo_1",
+      "timestamp": "2026-09-21T09:00:00.000Z",
+      "date": "2026-09-21",
+      "overallScore": 7,
+      "mood": 7,
+      "stress": 4,
+      "sleep": 7,
+      "safety": 8,
+      "social": 6.5,
+      "fear": 3,
+      "functioning": 7,
+      "energy": 6.5,
+      "notes": "A bit tired, but managed all chores.",
+      "wantsHumanSupport": false
+    },
+    {
+      "id": "chk_d4",
+      "userId": "usr_demo_1",
+      "timestamp": "2026-09-22T09:15:00.000Z",
+      "date": "2026-09-22",
+      "overallScore": 5,
+      "mood": 5,
+      "stress": 6.5,
+      "sleep": 6,
+      "safety": 8,
+      "social": 5,
+      "fear": 5,
+      "functioning": 6.5,
+      "energy": 5,
+      "notes": "Heard sudden loud noises outside, felt startled.",
+      "wantsHumanSupport": false
+    },
+    {
+      "id": "chk_d5",
+      "userId": "usr_demo_1",
+      "timestamp": "2026-09-23T08:10:00.000Z",
+      "date": "2026-09-23",
+      "overallScore": 4,
+      "mood": 4,
+      "stress": 7.5,
+      "sleep": 4.5,
+      "safety": 7,
+      "social": 3.5,
+      "fear": 6,
+      "functioning": 5,
+      "energy": 4,
+      "notes": "Could not sleep properly. Stayed inside alone all day.",
+      "wantsHumanSupport": false
+    },
+    {
+      "id": "chk_d6",
+      "userId": "usr_demo_1",
+      "timestamp": "2026-09-24T08:20:00.000Z",
+      "date": "2026-09-24",
+      "overallScore": 3,
+      "mood": 3,
+      "stress": 8.5,
+      "sleep": 3.5,
+      "safety": 7,
+      "social": 3,
+      "fear": 7,
+      "functioning": 3.5,
+      "energy": 3,
+      "notes": "Struggling to make food or get out of bed. Mind feels cloudy.",
+      "wantsHumanSupport": true
+    },
+    {
+      "id": "rec_1790323376753_v7j0dc",
+      "createdAt": "2026-09-25T08:02:56.753Z",
+      "userId": "usr_demo_1",
+      "timestamp": "2026-09-25T08:02:56.753Z",
+      "date": "2026-09-25",
+      "overallScore": 7,
+      "mood": 4,
+      "stress": 8.5,
+      "sleep": 3.5,
+      "safety": 7,
+      "social": 3,
+      "fear": 2,
+      "functioning": 3.5,
+      "energy": 3,
+      "notes": "Feeling exhausted and isolated.",
+      "wantsHumanSupport": true,
+      "audioNoteUrl": ""
+    },
+    {
+      "id": "rec_1790323376805_k9gtrc",
+      "createdAt": "2026-09-25T08:02:56.805Z",
+      "userId": "usr_demo_1",
+      "timestamp": "2026-09-25T08:02:56.805Z",
+      "date": "2026-09-25",
+      "overallScore": 7,
+      "mood": 1,
+      "stress": 10,
+      "sleep": 7,
+      "safety": 1,
+      "social": 6,
+      "fear": 2,
+      "functioning": 7,
+      "energy": 6,
+      "notes": "I cannot go on anymore.",
+      "wantsHumanSupport": true,
+      "audioNoteUrl": ""
+    },
+    {
+      "id": "rec_1790324158731_cniwl1",
+      "createdAt": "2026-09-25T08:15:58.731Z",
+      "userId": "usr_demo_1",
+      "timestamp": "2026-09-25T08:15:58.731Z",
+      "date": "2026-09-25",
+      "overallScore": 7,
+      "mood": 4,
+      "stress": 8.5,
+      "sleep": 3.5,
+      "safety": 7,
+      "social": 3,
+      "fear": 2,
+      "functioning": 3.5,
+      "energy": 3,
+      "notes": "Feeling exhausted and isolated.",
+      "wantsHumanSupport": true,
+      "audioNoteUrl": ""
+    },
+    {
+      "id": "rec_1790324158859_3vk459",
+      "createdAt": "2026-09-25T08:15:58.859Z",
+      "userId": "usr_demo_1",
+      "timestamp": "2026-09-25T08:15:58.859Z",
+      "date": "2026-09-25",
+      "overallScore": 7,
+      "mood": 1,
+      "stress": 10,
+      "sleep": 7,
+      "safety": 1,
+      "social": 6,
+      "fear": 2,
+      "functioning": 7,
+      "energy": 6,
+      "notes": "I cannot go on anymore.",
+      "wantsHumanSupport": true,
+      "audioNoteUrl": ""
+    },
+    {
+      "id": "rec_1790325488942_g2gy3z",
+      "createdAt": "2026-09-25T08:38:08.942Z",
+      "userId": "usr_demo_1",
+      "timestamp": "2026-09-25T08:38:08.942Z",
+      "date": "2026-09-25",
+      "overallScore": 7,
+      "mood": 4,
+      "stress": 8.5,
+      "sleep": 3.5,
+      "safety": 7,
+      "social": 3,
+      "fear": 2,
+      "functioning": 3.5,
+      "energy": 3,
+      "notes": "Feeling exhausted and isolated.",
+      "wantsHumanSupport": true,
+      "audioNoteUrl": ""
+    },
+    {
+      "id": "rec_1790325488979_ygku8k",
+      "createdAt": "2026-09-25T08:38:08.979Z",
+      "userId": "usr_demo_1",
+      "timestamp": "2026-09-25T08:38:08.979Z",
+      "date": "2026-09-25",
+      "overallScore": 7,
+      "mood": 1,
+      "stress": 10,
+      "sleep": 7,
+      "safety": 1,
+      "social": 6,
+      "fear": 2,
+      "functioning": 7,
+      "energy": 6,
+      "notes": "I cannot go on anymore.",
+      "wantsHumanSupport": true,
+      "audioNoteUrl": ""
+    }
+  ],
+  "personal_baselines": [
+    {
+      "id": "pbl_demo_1",
+      "userId": "usr_demo_1",
+      "periodDays": 12,
+      "typicalMood": 4.1,
+      "typicalStress": 7.3,
+      "typicalSleep": 5.7,
+      "typicalSocial": 4.9,
+      "typicalFunctioning": 5.8,
+      "typicalEnergy": 5,
+      "varianceThreshold": 1.8,
+      "status": "established",
+      "calculatedAt": "2026-09-25T08:38:08.986Z",
+      "checkinCount": 12,
+      "updatedAt": "2026-09-25T08:38:08.986Z"
+    }
+  ],
+  "ai_support_signals": [
+    {
+      "id": "sig_001",
+      "userId": "usr_demo_1",
+      "checkinId": "chk_d6",
+      "timestamp": "2026-09-24T08:21:00.000Z",
+      "headline": "Your recent responses show a meaningful change from your usual pattern.",
+      "headlineTe": "మీ ఇటీవలి సమాధానాలు మీ సాధారణ అలవాట్ల నుండి ముఖ్యమైన మార్పును సూచిస్తున్నాయి.",
+      "signalLevel": "notable_change",
+      "contributingIndicators": [
+        {
+          "factor": "Sleep has decreased",
+          "factorTe": "నిద్ర సమయం తగ్గింది",
+          "detail": "Recent average 4.0 hrs vs your typical 7.5 hrs baseline"
+        },
+        {
+          "factor": "Stress has increased",
+          "factorTe": "ఒత్తిడి పెరిగింది",
+          "detail": "Stress indicator 8.0 vs your typical 3.4 baseline"
+        },
+        {
+          "factor": "Social connection has decreased",
+          "factorTe": "సామాజిక సంబంధాలు తగ్గాయి",
+          "detail": "Fewer interactions reported over the last 3 days"
+        },
+        {
+          "factor": "Daily activities feel more difficult",
+          "factorTe": "రోజువారీ పనులు చేయడం కష్టంగా మారింది",
+          "detail": "Functioning reported at 3.5 vs your typical 7.6 baseline"
+        }
+      ],
+      "suggestedSteps": [
+        {
+          "id": "step_counselor",
+          "label": "Talk to Counselor",
+          "labelTe": "కౌన్సెలర్‌తో మాట్లాడండి",
+          "action": "book_counselor"
+        },
+        {
+          "id": "step_social",
+          "label": "Talk to Social Worker",
+          "labelTe": "సోషల్ వర్కర్‌తో మాట్లాడండి",
+          "action": "book_social_worker"
+        },
+        {
+          "id": "step_trusted",
+          "label": "Contact Trusted Person",
+          "labelTe": "నమ్మకమైన వ్యక్తిని సంప్రదించండి",
+          "action": "contact_trusted"
+        },
+        {
+          "id": "step_resources",
+          "label": "View Self-help Resources",
+          "labelTe": "స్వయం సహాయక వనరులను చూడండి",
+          "action": "view_resources"
+        }
+      ],
+      "acknowledged": false,
+      "status": "Active"
+    },
+    {
+      "id": "sig_1790323376763",
+      "createdAt": "2026-09-25T08:02:56.763Z",
+      "userId": "usr_demo_1",
+      "checkinId": "rec_1790323376753_v7j0dc",
+      "timestamp": "2026-09-25T08:02:56.763Z",
+      "signalLevel": "concerning_change",
+      "headline": "Your recent responses show a meaningful change from your usual pattern.",
+      "headlineTe": "మీ ఇటీవలి సమాధానాలు మీ సాధారణ అలవాట్ల నుండి ముఖ్యమైన మార్పును సూచిస్తున్నాయి.",
+      "contributingIndicators": [
+        {
+          "factor": "Sleep has decreased",
+          "factorTe": "నిద్ర సమయం తగ్గింది",
+          "detail": "Reported 3.5 hrs vs your personal usual pattern of 5.7 hrs."
+        },
+        {
+          "factor": "Stress has increased",
+          "factorTe": "ఒత్తిడి పెరిగింది",
+          "detail": "Reported stress level 8.5/10 vs your personal usual pattern of 5.9/10."
+        },
+        {
+          "factor": "Social connection has decreased",
+          "factorTe": "సామాజిక సంబంధాలు తగ్గాయి",
+          "detail": "Social feeling 3/10 vs your personal usual pattern of 5/10."
+        },
+        {
+          "factor": "Daily activities feel more difficult",
+          "factorTe": "రోజువారీ పనులు చేయడం కష్టంగా మారింది",
+          "detail": "Reported functioning 3.5/10 vs your personal usual pattern of 5.9/10."
+        }
+      ],
+      "suggestedSteps": [
+        {
+          "id": "step_counselor",
+          "label": "Talk to Counselor",
+          "labelTe": "కౌన్సెలర్‌తో మాట్లాడండి",
+          "action": "book_counselor"
+        },
+        {
+          "id": "step_social",
+          "label": "Talk to Social Worker",
+          "labelTe": "సోషల్ వర్కర్‌తో మాట్లాడండి",
+          "action": "book_social_worker"
+        },
+        {
+          "id": "step_trusted",
+          "label": "Contact Trusted Person",
+          "labelTe": "నమ్మకమైన వ్యక్తిని సంప్రదించండి",
+          "action": "contact_trusted"
+        },
+        {
+          "id": "step_resources",
+          "label": "View Self-help Resources",
+          "labelTe": "స్వయం సహాయక వనరులను చూడండి",
+          "action": "view_resources"
+        }
+      ],
+      "acknowledged": false,
+      "status": "Active"
+    },
+    {
+      "id": "sig_1790323376815",
+      "createdAt": "2026-09-25T08:02:56.815Z",
+      "userId": "usr_demo_1",
+      "checkinId": "rec_1790323376805_k9gtrc",
+      "timestamp": "2026-09-25T08:02:56.815Z",
+      "signalLevel": "immediate_attention",
+      "headline": "We care about your safety right now.",
+      "headlineTe": "ఈ సమయంలో మీ భద్రత మాకు అత్యంత ప్రాధాన్యత.",
+      "contributingIndicators": [
+        {
+          "factor": "Immediate safety or distress indicated",
+          "factorTe": "తక్షణ భద్రత లేదా తీవ్ర ఆందోళన గుర్తించబడింది",
+          "detail": "Your safety is the highest priority. Let us connect you to supportive human care immediately."
+        }
+      ],
+      "suggestedSteps": [
+        {
+          "id": "step_emergency_112",
+          "label": "Call 112 Emergency",
+          "labelTe": "112 అత్యవసర సహాయానికి కాల్ చేయండి",
+          "action": "call_112"
+        },
+        {
+          "id": "step_telemanas",
+          "label": "Call Tele-MANAS (14416)",
+          "labelTe": "టెలి-మానస్ (14416) కి కాల్ చేయండి",
+          "action": "call_telemanas"
+        },
+        {
+          "id": "step_trusted_now",
+          "label": "Alert Trusted Contact",
+          "labelTe": "నమ్మకమైన వ్యక్తిని సంప్రదించండి",
+          "action": "alert_trusted"
+        }
+      ],
+      "acknowledged": false,
+      "status": "Immediate Safety Mode"
+    },
+    {
+      "id": "sig_1790324158764",
+      "createdAt": "2026-09-25T08:15:58.764Z",
+      "userId": "usr_demo_1",
+      "checkinId": "rec_1790324158731_cniwl1",
+      "timestamp": "2026-09-25T08:15:58.764Z",
+      "signalLevel": "notable_change",
+      "headline": "Your recent responses show a meaningful change from your usual pattern.",
+      "headlineTe": "మీ ఇటీవలి సమాధానాలు మీ సాధారణ అలవాట్ల నుండి ముఖ్యమైన మార్పును సూచిస్తున్నాయి.",
+      "contributingIndicators": [
+        {
+          "factor": "Sleep has decreased",
+          "factorTe": "నిద్ర సమయం తగ్గింది",
+          "detail": "Reported 3.5 hrs vs your personal usual pattern of 5.6 hrs."
+        },
+        {
+          "factor": "Daily activities feel more difficult",
+          "factorTe": "రోజువారీ పనులు చేయడం కష్టంగా మారింది",
+          "detail": "Reported functioning 3.5/10 vs your personal usual pattern of 5.8/10."
+        }
+      ],
+      "suggestedSteps": [
+        {
+          "id": "step_counselor",
+          "label": "Talk to Counselor",
+          "labelTe": "కౌన్సెలర్‌తో మాట్లాడండి",
+          "action": "book_counselor"
+        },
+        {
+          "id": "step_social",
+          "label": "Talk to Social Worker",
+          "labelTe": "సోషల్ వర్కర్‌తో మాట్లాడండి",
+          "action": "book_social_worker"
+        },
+        {
+          "id": "step_trusted",
+          "label": "Contact Trusted Person",
+          "labelTe": "నమ్మకమైన వ్యక్తిని సంప్రదించండి",
+          "action": "contact_trusted"
+        },
+        {
+          "id": "step_resources",
+          "label": "View Self-help Resources",
+          "labelTe": "స్వయం సహాయక వనరులను చూడండి",
+          "action": "view_resources"
+        }
+      ],
+      "acknowledged": false,
+      "status": "Active"
+    },
+    {
+      "id": "sig_1790324158902",
+      "createdAt": "2026-09-25T08:15:58.902Z",
+      "userId": "usr_demo_1",
+      "checkinId": "rec_1790324158859_3vk459",
+      "timestamp": "2026-09-25T08:15:58.902Z",
+      "signalLevel": "immediate_attention",
+      "headline": "We care about your safety right now.",
+      "headlineTe": "ఈ సమయంలో మీ భద్రత మాకు అత్యంత ప్రాధాన్యత.",
+      "contributingIndicators": [
+        {
+          "factor": "Immediate safety or distress indicated",
+          "factorTe": "తక్షణ భద్రత లేదా తీవ్ర ఆందోళన గుర్తించబడింది",
+          "detail": "Your safety is the highest priority. Let us connect you to supportive human care immediately."
+        }
+      ],
+      "suggestedSteps": [
+        {
+          "id": "step_emergency_112",
+          "label": "Call 112 Emergency",
+          "labelTe": "112 అత్యవసర సహాయానికి కాల్ చేయండి",
+          "action": "call_112"
+        },
+        {
+          "id": "step_telemanas",
+          "label": "Call Tele-MANAS (14416)",
+          "labelTe": "టెలి-మానస్ (14416) కి కాల్ చేయండి",
+          "action": "call_telemanas"
+        },
+        {
+          "id": "step_trusted_now",
+          "label": "Alert Trusted Contact",
+          "labelTe": "నమ్మకమైన వ్యక్తిని సంప్రదించండి",
+          "action": "alert_trusted"
+        }
+      ],
+      "acknowledged": false,
+      "status": "Immediate Safety Mode"
+    },
+    {
+      "id": "sig_1790325488955",
+      "createdAt": "2026-09-25T08:38:08.955Z",
+      "userId": "usr_demo_1",
+      "checkinId": "rec_1790325488942_g2gy3z",
+      "timestamp": "2026-09-25T08:38:08.955Z",
+      "signalLevel": "notable_change",
+      "headline": "Your recent responses show a meaningful change from your usual pattern.",
+      "headlineTe": "మీ ఇటీవలి సమాధానాలు మీ సాధారణ అలవాట్ల నుండి ముఖ్యమైన మార్పును సూచిస్తున్నాయి.",
+      "contributingIndicators": [
+        {
+          "factor": "Sleep has decreased",
+          "factorTe": "నిద్ర సమయం తగ్గింది",
+          "detail": "Reported 3.5 hrs vs your personal usual pattern of 5.5 hrs."
+        },
+        {
+          "factor": "Daily activities feel more difficult",
+          "factorTe": "రోజువారీ పనులు చేయడం కష్టంగా మారింది",
+          "detail": "Reported functioning 3.5/10 vs your personal usual pattern of 5.7/10."
+        }
+      ],
+      "suggestedSteps": [
+        {
+          "id": "step_counselor",
+          "label": "Talk to Counselor",
+          "labelTe": "కౌన్సెలర్‌తో మాట్లాడండి",
+          "action": "book_counselor"
+        },
+        {
+          "id": "step_social",
+          "label": "Talk to Social Worker",
+          "labelTe": "సోషల్ వర్కర్‌తో మాట్లాడండి",
+          "action": "book_social_worker"
+        },
+        {
+          "id": "step_trusted",
+          "label": "Contact Trusted Person",
+          "labelTe": "నమ్మకమైన వ్యక్తిని సంప్రదించండి",
+          "action": "contact_trusted"
+        },
+        {
+          "id": "step_resources",
+          "label": "View Self-help Resources",
+          "labelTe": "స్వయం సహాయక వనరులను చూడండి",
+          "action": "view_resources"
+        }
+      ],
+      "acknowledged": false,
+      "status": "Active"
+    },
+    {
+      "id": "sig_1790325488992",
+      "createdAt": "2026-09-25T08:38:08.992Z",
+      "userId": "usr_demo_1",
+      "checkinId": "rec_1790325488979_ygku8k",
+      "timestamp": "2026-09-25T08:38:08.992Z",
+      "signalLevel": "immediate_attention",
+      "headline": "We care about your safety right now.",
+      "headlineTe": "ఈ సమయంలో మీ భద్రత మాకు అత్యంత ప్రాధాన్యత.",
+      "contributingIndicators": [
+        {
+          "factor": "Immediate safety or distress indicated",
+          "factorTe": "తక్షణ భద్రత లేదా తీవ్ర ఆందోళన గుర్తించబడింది",
+          "detail": "Your safety is the highest priority. Let us connect you to supportive human care immediately."
+        }
+      ],
+      "suggestedSteps": [
+        {
+          "id": "step_emergency_112",
+          "label": "Call 112 Emergency",
+          "labelTe": "112 అత్యవసర సహాయానికి కాల్ చేయండి",
+          "action": "call_112"
+        },
+        {
+          "id": "step_telemanas",
+          "label": "Call Tele-MANAS (14416)",
+          "labelTe": "టెలి-మానస్ (14416) కి కాల్ చేయండి",
+          "action": "call_telemanas"
+        },
+        {
+          "id": "step_trusted_now",
+          "label": "Alert Trusted Contact",
+          "labelTe": "నమ్మకమైన వ్యక్తిని సంప్రదించండి",
+          "action": "alert_trusted"
+        }
+      ],
+      "acknowledged": false,
+      "status": "Immediate Safety Mode"
+    }
+  ],
+  "habits": [
+    {
+      "id": "hbt_1",
+      "userId": "usr_demo_1",
+      "title": "Drink 2 glasses of water",
+      "titleTe": "2 గ్లాసుల నీరు త్రాగండి",
+      "category": "hydration",
+      "icon": "Droplet",
+      "targetDaysPerWeek": 7,
+      "reminderTime": "08:30",
+      "streak": 4,
+      "isActive": true,
+      "notes": "Morning glass helps clear fog",
+      "updatedAt": "2026-09-25T08:38:09.041Z"
+    },
+    {
+      "id": "hbt_2",
+      "userId": "usr_demo_1",
+      "title": "10-minute morning walk in daylight",
+      "titleTe": "ఉదయం 10 నిమిషాల నడక",
+      "category": "movement",
+      "icon": "Footprints",
+      "targetDaysPerWeek": 5,
+      "reminderTime": "07:30",
+      "streak": 4,
+      "isActive": true,
+      "notes": "Grounding in fresh air"
+    },
+    {
+      "id": "hbt_3",
+      "userId": "usr_demo_1",
+      "title": "Gentle box breathing (4-4-4)",
+      "titleTe": "ప్రశాంత శ్వాస వ్యాయామం (4-4-4)",
+      "category": "mindfulness",
+      "icon": "Wind",
+      "targetDaysPerWeek": 7,
+      "reminderTime": "13:00",
+      "streak": 6,
+      "isActive": true,
+      "notes": "Before afternoon tasks"
+    },
+    {
+      "id": "hbt_4",
+      "userId": "usr_demo_1",
+      "title": "Regular lunch away from screens",
+      "titleTe": "స్క్రీన్లకు దూరంగా భోజనం",
+      "category": "nourishment",
+      "icon": "Utensils",
+      "targetDaysPerWeek": 7,
+      "reminderTime": "13:30",
+      "streak": 3,
+      "isActive": true,
+      "notes": "Peaceful nourishment"
+    },
+    {
+      "id": "hbt_5",
+      "userId": "usr_demo_1",
+      "title": "Wind-down reading before sleep",
+      "titleTe": "పడుకునే ముందు పుస్తక పఠనం",
+      "category": "sleep",
+      "icon": "Moon",
+      "targetDaysPerWeek": 7,
+      "reminderTime": "21:30",
+      "streak": 2,
+      "isActive": true,
+      "notes": "No blue light 1 hour prior"
+    }
+  ],
+  "habit_logs": [
+    {
+      "id": "hlg_1",
+      "habitId": "hbt_1",
+      "userId": "usr_demo_1",
+      "date": "2026-09-25",
+      "completed": false,
+      "updatedAt": "2026-09-25T08:38:09.036Z"
+    },
+    {
+      "id": "hlg_2",
+      "habitId": "hbt_2",
+      "userId": "usr_demo_1",
+      "date": "2026-09-25",
+      "completed": true
+    },
+    {
+      "id": "hlg_3",
+      "habitId": "hbt_3",
+      "userId": "usr_demo_1",
+      "date": "2026-09-25",
+      "completed": false
+    }
+  ],
+  "hobbies": [
+    {
+      "id": "hby_1",
+      "userId": "usr_demo_1",
+      "category": "Drawing & Art",
+      "name": "Botanical Sketching",
+      "nameTe": "చిత్రలేఖనం & స్కెచింగ్",
+      "icon": "Palette",
+      "isFavorite": true,
+      "currentGoal": "Create one small nature sketch (no pressure)",
+      "currentGoalTe": "ఒక చిన్న ప్రకృతి స్కెచ్ వేయండి",
+      "weeklyMinutesTarget": 60,
+      "totalMinutesLogged": 225,
+      "recentNotes": "Gentle pencil sketching",
+      "updatedAt": "2026-09-25T08:38:09.063Z"
+    },
+    {
+      "id": "hby_2",
+      "userId": "usr_demo_1",
+      "category": "Music & Instruments",
+      "name": "Acoustic Guitar & Relaxing Melodies",
+      "nameTe": "సంగీతం & గిటార్",
+      "icon": "Music",
+      "isFavorite": true,
+      "currentGoal": "Play or listen mindfully for 15 minutes",
+      "currentGoalTe": "15 నిమిషాలు శ్రద్ధగా సంగీతం వినండి లేదా ప్లే చేయండి",
+      "weeklyMinutesTarget": 45,
+      "totalMinutesLogged": 120,
+      "recentNotes": "Gentle chords help calm evening nerves"
+    },
+    {
+      "id": "hby_3",
+      "userId": "usr_demo_1",
+      "category": "Gardening & Plants",
+      "name": "Balcony Herb Care",
+      "nameTe": "మొక్కల సంరక్షణ & తోటపని",
+      "icon": "Sprout",
+      "isFavorite": false,
+      "currentGoal": "Water and check the tulsi and mint pots",
+      "currentGoalTe": "తులసి, పుదీనా మొక్కలకు నీరు పోయండి",
+      "weeklyMinutesTarget": 30,
+      "totalMinutesLogged": 90,
+      "recentNotes": "Feeling connected with soil"
+    }
+  ],
+  "hobby_activity_logs": [
+    {
+      "id": "hal_1",
+      "hobbyId": "hby_1",
+      "userId": "usr_demo_1",
+      "date": "2026-09-22",
+      "durationMinutes": 25,
+      "note": "Pencil shading sketch"
+    },
+    {
+      "id": "hal_2",
+      "hobbyId": "hby_2",
+      "userId": "usr_demo_1",
+      "date": "2026-09-23",
+      "durationMinutes": 20,
+      "note": "Slow acoustic chords"
+    },
+    {
+      "id": "rec_1790323376931_ejkn8u",
+      "createdAt": "2026-09-25T08:02:56.931Z",
+      "hobbyId": "hby_1",
+      "userId": "usr_demo_1",
+      "date": "2026-09-25",
+      "durationMinutes": 15,
+      "note": "Gentle pencil sketching"
+    },
+    {
+      "id": "rec_1790324159043_q7de2o",
+      "createdAt": "2026-09-25T08:15:59.043Z",
+      "hobbyId": "hby_1",
+      "userId": "usr_demo_1",
+      "date": "2026-09-25",
+      "durationMinutes": 15,
+      "note": "Gentle pencil sketching"
+    },
+    {
+      "id": "rec_1790325489058_ukymnr",
+      "createdAt": "2026-09-25T08:38:09.058Z",
+      "hobbyId": "hby_1",
+      "userId": "usr_demo_1",
+      "date": "2026-09-25",
+      "durationMinutes": 15,
+      "note": "Gentle pencil sketching"
+    }
+  ],
+  "trusted_contacts": [
+    {
+      "id": "tc_1",
+      "userId": "usr_demo_1",
+      "name": "Kavita Rao",
+      "relationship": "Mother",
+      "relationshipTe": "తల్లి",
+      "phone": "+91 98480 12345",
+      "canViewStatus": true,
+      "canReceiveEmergencyAlerts": true,
+      "canReceiveLocation": true,
+      "notes": "Safe to call any time"
+    },
+    {
+      "id": "tc_2",
+      "userId": "usr_demo_1",
+      "name": "Arjun Rao",
+      "relationship": "Brother",
+      "relationshipTe": "సోదరుడు",
+      "phone": "+91 94400 54321",
+      "canViewStatus": true,
+      "canReceiveEmergencyAlerts": true,
+      "canReceiveLocation": true,
+      "notes": "Available on WhatsApp and phone"
+    },
+    {
+      "id": "tc_3",
+      "userId": "usr_demo_1",
+      "name": "Pooja Varma",
+      "relationship": "Close Friend",
+      "relationshipTe": "స్నేహితురాలు",
+      "phone": "+91 91234 56789",
+      "canViewStatus": false,
+      "canReceiveEmergencyAlerts": true,
+      "canReceiveLocation": false,
+      "notes": "Trusted peer support"
+    }
+  ],
+  "emergency_sessions": [
+    {
+      "id": "rec_1790323376990_3yn8ek",
+      "createdAt": "2026-09-25T08:02:56.990Z",
+      "userId": "usr_demo_1",
+      "status": "stopped",
+      "startedAt": "2026-09-25T08:02:56.989Z",
+      "stoppedAt": "2026-09-25T08:02:57.003Z",
+      "lat": 17.385044,
+      "lng": 78.486671,
+      "address": "Hyderabad, Telangana",
+      "contactsNotified": [
+        {
+          "id": "tc_1",
+          "name": "Kavita Rao",
+          "phone": "+91 98480 12345"
+        },
+        {
+          "id": "tc_2",
+          "name": "Arjun Rao",
+          "phone": "+91 94400 54321"
+        }
+      ],
+      "updatedAt": "2026-09-25T08:02:57.003Z"
+    },
+    {
+      "id": "rec_1790324159184_ivvwt8",
+      "createdAt": "2026-09-25T08:15:59.184Z",
+      "userId": "usr_demo_1",
+      "status": "stopped",
+      "startedAt": "2026-09-25T08:15:59.184Z",
+      "stoppedAt": "2026-09-25T08:15:59.212Z",
+      "lat": 17.385044,
+      "lng": 78.486671,
+      "address": "Hyderabad, Telangana",
+      "contactsNotified": [
+        {
+          "id": "tc_1",
+          "name": "Kavita Rao",
+          "phone": "+91 98480 12345"
+        },
+        {
+          "id": "tc_2",
+          "name": "Arjun Rao",
+          "phone": "+91 94400 54321"
+        }
+      ],
+      "updatedAt": "2026-09-25T08:15:59.212Z"
+    },
+    {
+      "id": "rec_1790325489125_wb3gef",
+      "createdAt": "2026-09-25T08:38:09.125Z",
+      "userId": "usr_demo_1",
+      "status": "stopped",
+      "startedAt": "2026-09-25T08:38:09.125Z",
+      "stoppedAt": "2026-09-25T08:38:09.155Z",
+      "lat": 17.385044,
+      "lng": 78.486671,
+      "address": "Hyderabad, Telangana",
+      "contactsNotified": [
+        {
+          "id": "tc_1",
+          "name": "Kavita Rao",
+          "phone": "+91 98480 12345"
+        },
+        {
+          "id": "tc_2",
+          "name": "Arjun Rao",
+          "phone": "+91 94400 54321"
+        }
+      ],
+      "updatedAt": "2026-09-25T08:38:09.155Z"
+    }
+  ],
+  "professionals": [
+    {
+      "id": "prof_1",
+      "userId": "usr_prof_1",
+      "name": "Dr. Radhika Sharma",
+      "role": "counselor",
+      "title": "Lead Trauma-Informed Clinical Counselor",
+      "titleTe": "ట్రామా-ఇన్ఫార్మ్డ్ కౌన్సెలర్",
+      "qualification": "Ph.D. Clinical Psychology, Certified EMDR & Somatic Therapist",
+      "experienceYears": 14,
+      "languages": [
+        "English",
+        "Telugu",
+        "Hindi"
+      ],
+      "bio": "Specializes in supportive post-trauma recovery, survivor stabilization, and nervous system regulation with a compassionate, non-judgmental approach.",
+      "bioTe": "పోస్ట్-ట్రామా రికవరీ మరియు బాధితుల స్థిరీకరణలో ప్రత్యేక నిపుణులు.",
+      "availableSlots": [
+        "Today, 3:30 PM",
+        "Today, 5:00 PM",
+        "Tomorrow, 10:00 AM",
+        "Tomorrow, 2:00 PM",
+        "Thursday, 11:30 AM"
+      ],
+      "rating": 4.95,
+      "casesCount": 18
+    },
+    {
+      "id": "prof_2",
+      "userId": "usr_prof_2",
+      "name": "K. Suresh (MSW)",
+      "role": "social_worker",
+      "title": "Senior Social Worker & Legal Aid Liaison",
+      "titleTe": "సీనియర్ సోషల్ వర్కర్ & లీగల్ ఎయిడ్ సమన్వయకర్త",
+      "qualification": "Master of Social Work (MSW), Diploma in Human Rights Law",
+      "experienceYears": 11,
+      "languages": [
+        "English",
+        "Telugu"
+      ],
+      "bio": "Facilitates practical rehabilitation, survivor compensation schemes, protective orders, safe shelter, and rights assistance.",
+      "bioTe": "పునరావాసం, ప్రభుత్వ సహాయ పథకాలు మరియు చట్టపరమైన సహకారంలో నిపుణులు.",
+      "availableSlots": [
+        "Today, 4:00 PM",
+        "Tomorrow, 11:00 AM",
+        "Tomorrow, 3:00 PM",
+        "Friday, 10:00 AM"
+      ],
+      "rating": 4.9,
+      "casesCount": 24
+    },
+    {
+      "id": "prof_3",
+      "userId": "usr_prof_3",
+      "name": "Meera Deshmukh",
+      "role": "counselor",
+      "title": "Trauma & Community Psychologist",
+      "titleTe": "ట్రామా & కమ్యూనిటీ సైకాలజిస్ట్",
+      "qualification": "M.Phil Clinical Psychology, Trauma-Informed Care Trainer",
+      "experienceYears": 9,
+      "languages": [
+        "English",
+        "Telugu",
+        "Marathi"
+      ],
+      "bio": "Focuses on grief, atrocity aftermath recovery, rebuilding community connections, and family reconciliation.",
+      "bioTe": "కుటుంబ పునరేకీకరణ మరియు కమ్యూనిటీ ఆధారిత రికవరీ నిపుణులు.",
+      "availableSlots": [
+        "Tomorrow, 1:00 PM",
+        "Tomorrow, 4:30 PM",
+        "Friday, 2:00 PM"
+      ],
+      "rating": 4.88,
+      "casesCount": 15
+    }
+  ],
+  "appointments": [
+    {
+      "id": "apt_1",
+      "userId": "usr_demo_1",
+      "professionalId": "prof_1",
+      "professionalName": "Dr. Radhika Sharma",
+      "dateTime": "2026-09-27T10:00:00.000Z",
+      "status": "Confirmed",
+      "mode": "Secure In-App Video / Voice",
+      "notes": "Initial recovery baseline check-in & breathing grounding",
+      "isUpcoming": true,
+      "joinUrl": "https://sahara.care/session/sec-8849-safe",
+      "createdAt": "2026-09-24T14:30:00.000Z"
+    },
+    {
+      "id": "rec_1790323376969_76nmbl",
+      "createdAt": "2026-09-25T08:02:56.969Z",
+      "userId": "usr_demo_1",
+      "professionalId": "prof_1",
+      "professionalName": "Dr. Radhika Sharma",
+      "dateTime": "2026-09-28T10:00:00.000Z",
+      "status": "Confirmed",
+      "mode": "Secure In-App Video / Voice",
+      "notes": "Follow-up consultation",
+      "isUpcoming": true,
+      "joinUrl": "https://sahara.care/session/sec-1591-safe"
+    },
+    {
+      "id": "rec_1790324159135_a2k2k7",
+      "createdAt": "2026-09-25T08:15:59.135Z",
+      "userId": "usr_demo_1",
+      "professionalId": "prof_1",
+      "professionalName": "Dr. Radhika Sharma",
+      "dateTime": "2026-09-28T10:00:00.000Z",
+      "status": "Confirmed",
+      "mode": "Secure In-App Video / Voice",
+      "notes": "Follow-up consultation",
+      "isUpcoming": true,
+      "joinUrl": "https://sahara.care/session/sec-4667-safe"
+    },
+    {
+      "id": "rec_1790325489093_rodwf3",
+      "createdAt": "2026-09-25T08:38:09.093Z",
+      "userId": "usr_demo_1",
+      "professionalId": "prof_1",
+      "professionalName": "Dr. Radhika Sharma",
+      "dateTime": "2026-09-28T10:00:00.000Z",
+      "status": "Confirmed",
+      "mode": "Secure In-App Video / Voice",
+      "notes": "Follow-up consultation",
+      "isUpcoming": true,
+      "joinUrl": "https://sahara.care/session/sec-6196-safe"
+    }
+  ],
+  "cases": [
+    {
+      "id": "case_001",
+      "caseNumber": "SAH-2026-0042",
+      "userId": "usr_demo_1",
+      "userName": "Ananya Rao",
+      "assignedProfessionalId": "prof_1",
+      "assignedProfessionalName": "Dr. Radhika Sharma",
+      "secondaryWorkerId": "prof_2",
+      "status": "Active Support",
+      "priority": "Urgent",
+      "summary": "Survivor participating in routine stabilization. Baseline established. Responsive to grounding habits.",
+      "lastContactDate": "2026-09-24",
+      "nextFollowUpDate": "2026-09-27",
+      "supportSignalsCount": 1,
+      "createdAt": "2026-09-02T10:00:00.000Z",
+      "updatedAt": "2026-09-25T08:38:09.197Z"
+    }
+  ],
+  "case_notes": [
+    {
+      "id": "cn_1",
+      "caseId": "case_001",
+      "authorName": "Dr. Radhika Sharma",
+      "authorRole": "Counselor",
+      "date": "2026-09-24T15:10:00.000Z",
+      "noteType": "Follow-up",
+      "content": "Survivor noted sleep inconsistency over past 2 nights. Recommended gentle wind-down routine and maintaining morning walk habit. Scheduled video session for the 27th."
+    },
+    {
+      "id": "rec_1790323376772_j200oc",
+      "createdAt": "2026-09-25T08:02:56.772Z",
+      "caseId": "case_001",
+      "authorName": "SAHARA Support Router",
+      "authorRole": "System",
+      "noteType": "Support Request",
+      "content": "Survivor requested human support during daily check-in. Baseline deviation recorded."
+    },
+    {
+      "id": "rec_1790323376874_y9oiut",
+      "createdAt": "2026-09-25T08:02:56.874Z",
+      "caseId": "case_001",
+      "authorName": "SAHARA Support Router",
+      "authorRole": "System",
+      "noteType": "Urgent Safety Alert",
+      "content": "Urgent safety indicator reported during check-in. Routed to immediate human support protocol."
+    },
+    {
+      "id": "rec_1790323377069_mc7ukg",
+      "createdAt": "2026-09-25T08:02:57.069Z",
+      "caseId": "case_001",
+      "authorName": "Dr. Radhika Sharma",
+      "authorRole": "Counselor",
+      "date": "2026-09-25T08:02:57.069Z",
+      "noteType": "Session Summary",
+      "content": "Survivor reported improved grounding following box breathing exercise."
+    },
+    {
+      "id": "rec_1790324158814_pszgvt",
+      "createdAt": "2026-09-25T08:15:58.814Z",
+      "caseId": "case_001",
+      "authorName": "SAHARA Support Router",
+      "authorRole": "System",
+      "noteType": "Support Request",
+      "content": "Survivor requested human support during daily check-in. Baseline deviation recorded."
+    },
+    {
+      "id": "rec_1790324158959_aaph6w",
+      "createdAt": "2026-09-25T08:15:58.959Z",
+      "caseId": "case_001",
+      "authorName": "SAHARA Support Router",
+      "authorRole": "System",
+      "noteType": "Urgent Safety Alert",
+      "content": "Urgent safety indicator reported during check-in. Routed to immediate human support protocol."
+    },
+    {
+      "id": "rec_1790324159276_8zyl1u",
+      "createdAt": "2026-09-25T08:15:59.276Z",
+      "caseId": "case_001",
+      "authorName": "Dr. Radhika Sharma",
+      "authorRole": "Counselor",
+      "date": "2026-09-25T08:15:59.276Z",
+      "noteType": "Session Summary",
+      "content": "Survivor reported improved grounding following box breathing exercise."
+    },
+    {
+      "id": "rec_1790325488964_t4po5e",
+      "createdAt": "2026-09-25T08:38:08.964Z",
+      "caseId": "case_001",
+      "authorName": "SAHARA Support Router",
+      "authorRole": "System",
+      "noteType": "Support Request",
+      "content": "Survivor requested human support during daily check-in. Baseline deviation recorded."
+    },
+    {
+      "id": "rec_1790325489003_6tu77h",
+      "createdAt": "2026-09-25T08:38:09.003Z",
+      "caseId": "case_001",
+      "authorName": "SAHARA Support Router",
+      "authorRole": "System",
+      "noteType": "Urgent Safety Alert",
+      "content": "Urgent safety indicator reported during check-in. Routed to immediate human support protocol."
+    },
+    {
+      "id": "rec_1790325489191_uixmsz",
+      "createdAt": "2026-09-25T08:38:09.191Z",
+      "caseId": "case_001",
+      "authorName": "Dr. Radhika Sharma",
+      "authorRole": "Counselor",
+      "date": "2026-09-25T08:38:09.191Z",
+      "noteType": "Session Summary",
+      "content": "Survivor reported improved grounding following box breathing exercise."
+    }
+  ],
+  "resources": [
+    {
+      "id": "res_1",
+      "title": "SC & ST Prevention of Atrocities Legal Relief & Compensation",
+      "titleTe": "ఎస్సీ/ఎస్టీ అట్రాసిటీల నిరోధక చట్టం - చట్టపరమైన ఉపశమనం & పరిహారం",
+      "category": "Legal support",
+      "organization": "Department of Social Justice & Empowerment, Govt. of India",
+      "description": "Official provisions for mandatory financial relief, legal aid, police protection, and rehabilitation for survivors under the POA Act (Amendments).",
+      "descriptionTe": "పీవోఏ చట్టం క్రింద బాధితులకు ఆర్థిక ఉపశమనం, రక్షణ మరియు చట్టపరమైన సహాయ నిబంధనలు.",
+      "eligibility": "Survivors or families protected under the SC/ST (PoA) Act",
+      "eligibilityTe": "పీవోఏ చట్టం క్రింద అర్హులైన బాధితులు",
+      "location": "National / All States & Union Territories",
+      "contact": "Toll-Free Helpline: 1800-202-1989",
+      "website": "https://socialjustice.gov.in",
+      "verifiedDate": "2026-09-01"
+    },
+    {
+      "id": "res_2",
+      "title": "National Legal Services Authority (NALSA) Free Legal Aid",
+      "titleTe": "జాతీయ న్యాయ సేవల అథారిటీ (NALSA) ఉచిత న్యాయ సహాయం",
+      "category": "Legal support",
+      "organization": "NALSA & State Legal Services Authorities (SLSA)",
+      "description": "Free legal counsel, court representation, and victim compensation filing for survivors of violence, women, and marginalized communities.",
+      "descriptionTe": "హింసకు గురైన బాధితులకు మరియు మహిళలకు ఉచిత న్యాయవాది, కోర్టు ప్రాతినిధ్యం మరియు పరిహారం.",
+      "eligibility": "All women, children, survivors of atrocities, low-income citizens",
+      "eligibilityTe": "మహిళలు, పిల్లలు మరియు అట్రాసిటీ బాధితులందరికీ ఉచితం",
+      "location": "District Legal Services Authority (DLSA) in every district",
+      "contact": "Helpline: 15100",
+      "website": "https://nalsa.gov.in",
+      "verifiedDate": "2026-08-20"
+    },
+    {
+      "id": "res_3",
+      "title": "5-4-3-2-1 Somatic Grounding Technique for Acute Anxiety",
+      "titleTe": "5-4-3-2-1 ఇంద్రియాల ఆధారిత ప్రశాంతత పద్ధతి",
+      "category": "Grounding",
+      "organization": "SAHARA Clinical Advisory Board",
+      "description": "A trauma-informed sensory exercise: 5 things you can see, 4 you can touch, 3 you can hear, 2 you can smell, 1 you can taste. Re-anchors your nervous system in the present moment.",
+      "descriptionTe": "ఆందోళన తగ్గించడానికి మీ చుట్టూ ఉన్న పరిసరాలను గమనించే శ్రద్ధాపూర్వక పద్ధతి.",
+      "eligibility": "Open to all users",
+      "eligibilityTe": "అందరికీ అందుబాటులో ఉంది",
+      "location": "Self-help / In-app guidance",
+      "contact": "In-app audio exercise",
+      "website": "https://sahara.care/resources/grounding",
+      "verifiedDate": "2026-09-10"
+    },
+    {
+      "id": "res_4",
+      "title": "Victim Compensation Scheme (Section 357A CrPC / BNSS)",
+      "titleTe": "బాధితుల పరిహార పథకం",
+      "category": "Government services",
+      "organization": "State Home Departments / DLSA",
+      "description": "Statutory scheme for rehabilitation, emergency medical treatment expense coverage, and financial compensation awarded by DLSA/Courts.",
+      "descriptionTe": "అత్యవసర వైద్య ఖర్చులు మరియు ఆర్థిక పునరావాసం కోసం రాష్ట్ర ప్రభుత్వ చట్టబద్ధ పథకం.",
+      "eligibility": "Victims of physical harm, trauma, or atrocities where injury occurred",
+      "eligibilityTe": "గాయపడిన లేదా హింసకు గురైన బాధితులు",
+      "location": "State & District Level",
+      "contact": "Apply via DLSA or Special Public Prosecutor",
+      "website": "https://doj.gov.in",
+      "verifiedDate": "2026-08-15"
+    },
+    {
+      "id": "res_5",
+      "title": "Safe Sleep Hygiene & Nighttime Wind-Down Ritual",
+      "titleTe": "ప్రశాంతమైన నిద్ర కోసం సులభమైన పద్ధతులు",
+      "category": "Sleep",
+      "organization": "SAHARA Wellness Team",
+      "description": "Step-by-step nighttime pacing: dimming harsh overhead lights 45 minutes prior, temperature control, gentle stretching, and white noise cues.",
+      "descriptionTe": "రాత్రి వేళ ప్రశాంతమైన నిద్ర కోసం క్రమబద్ధమైన అలవాట్లు.",
+      "eligibility": "Open to all users",
+      "eligibilityTe": "అందరికీ అందుబాటులో ఉంది",
+      "location": "Self-help",
+      "contact": "Self-guided",
+      "website": "https://sahara.care/resources/sleep",
+      "verifiedDate": "2026-09-12"
+    },
+    {
+      "id": "res_6",
+      "title": "Community Shelter & Emergency Crisis Accommodation",
+      "titleTe": "కమ్యూనిటీ షెల్టర్ & సురక్షిత ఆశ్రయం",
+      "category": "Community support",
+      "organization": "Hope Rehabilitation & Women Protection Centers",
+      "description": "Immediate safe housing, food, trauma-counseling, and child-support facilities for individuals escaping dangerous domestic or community hostility.",
+      "descriptionTe": "అత్యవసర సురక్షిత నివాసం, ఆహారం మరియు భద్రత.",
+      "eligibility": "Immediate survivors seeking safety",
+      "eligibilityTe": "తక్షణ భద్రత కోరే బాధితులు",
+      "location": "Hyderabad, Warangal, Vijayawada, Visakhapatnam & Multi-city",
+      "contact": "Emergency Shelter Desk: 1800-425-2900",
+      "website": "https://sahara.care/shelters",
+      "verifiedDate": "2026-09-15"
+    }
+  ],
+  "helplines": [
+    {
+      "id": "hlp_1",
+      "name": "Tele-MANAS (Govt. of India 24/7 Mental Health)",
+      "nameTe": "టెలి-మానస్ (ప్రభుత్వ 24/7 మానసిక ఆరోగ్య హెల్ప్‌లైన్)",
+      "number": "14416",
+      "hours": "24/7 Free & Confidential",
+      "description": "National tele-mental health assistance in English, Telugu, Hindi, and 17 other languages by trained counselors.",
+      "descriptionTe": "తెలుగు మరియు ఆంగ్లంలో 24 గంటల ఉచిత కౌన్సెలింగ్ సేవలు.",
+      "isEmergency": true
+    },
+    {
+      "id": "hlp_2",
+      "name": "KIRAN National Mental Health Helpline",
+      "nameTe": "కిరణ్ జాతీయ మానసిక ఆరోగ్య హెల్ప్‌లైన్",
+      "number": "1800-599-0019",
+      "hours": "24/7 Toll Free",
+      "description": "Ministry of Social Justice support for distress, crisis intervention, anxiety and post-trauma stabilization.",
+      "descriptionTe": "మానసిక ప్రశాంతత మరియు సహాయం కోసం కేంద్ర ప్రభుత్వ టోల్ ఫ్రీ నెంబర్.",
+      "isEmergency": true
+    },
+    {
+      "id": "hlp_3",
+      "name": "National Commission for Women (NCW) Violence Helpline",
+      "nameTe": "జాతీయ మహిళా కమిషన్ హెల్ప్‌లైన్",
+      "number": "7827170170",
+      "hours": "24/7 Dedicated Support",
+      "description": "Emergency round-the-clock support for women facing violence, atrocities, harassment, or threats.",
+      "descriptionTe": "హింస మరియు వేధింపులకు గురైన మహిళల కోసం ప్రత్యేక అత్యవసర నెంబర్.",
+      "isEmergency": true
+    },
+    {
+      "id": "hlp_4",
+      "name": "Vandrevala Foundation Mental Health Support",
+      "nameTe": "వాండ్రెవాలా ఫౌండేషన్ ఉచిత సేవలు",
+      "number": "+91 9999 666 555",
+      "hours": "24/7 Free Counselor Support",
+      "description": "Empathetic listening and guidance for individuals recovering from trauma or distress.",
+      "descriptionTe": "మానసిక సాంత్వన మరియు సహానుభూతితో మాట్లాడే కౌన్సెలర్లు.",
+      "isEmergency": false
+    },
+    {
+      "id": "hlp_5",
+      "name": "National Emergency Response System (Police / Ambulance)",
+      "nameTe": "జాతీయ అత్యవసర స్పందన విభాగం (పోలీస్ / అంబులెన్స్)",
+      "number": "112",
+      "hours": "24/7 Immediate Emergency Dispatch",
+      "description": "All-in-one emergency helpline for police assistance, medical ambulances, and fire safety.",
+      "descriptionTe": "పోలీస్ మరియు అత్యవసర వైద్య రక్షణ కోసం.",
+      "isEmergency": true
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif_1",
+      "userId": "usr_demo_1",
+      "type": "habit_reminder",
+      "title": "Daily routine reminder",
+      "titleTe": "రోజువారీ అలవాటు రిమైండర్",
+      "message": "Take a gentle breath and enjoy a sip of water.",
+      "messageTe": "ఒకసారి ప్రశాంతంగా శ్వాస తీసుకుని కొద్దిగా నీరు త్రాగండి.",
+      "isRead": false,
+      "createdAt": "2026-09-25T07:24:12.380Z"
+    },
+    {
+      "id": "notif_2",
+      "userId": "usr_demo_1",
+      "type": "appointment_update",
+      "title": "Upcoming SAHARA session",
+      "titleTe": "రాబోయే కౌన్సెలింగ్ సెషన్",
+      "message": "You have a confirmed session with Dr. Radhika Sharma scheduled for tomorrow at 10:00 AM.",
+      "messageTe": "రేపు ఉదయం 10:00 గంటలకు డాక్టర్ రాధిక శర్మతో మీ సెషన్ ఖరారైంది.",
+      "isRead": false,
+      "createdAt": "2026-09-25T07:24:12.380Z"
+    },
+    {
+      "id": "rec_1790323376973_9q4n9p",
+      "createdAt": "2026-09-25T08:02:56.973Z",
+      "userId": "usr_demo_1",
+      "type": "appointment_confirmed",
+      "title": "Session Confirmed",
+      "titleTe": "సెషన్ ఖరారైంది",
+      "message": "Your appointment with Dr. Radhika Sharma is confirmed for 28/9/2026.",
+      "messageTe": "Dr. Radhika Sharmaతో మీ అపాయింట్‌మెంట్ విజయవంతంగా బుక్ చేయబడింది.",
+      "isRead": false
+    },
+    {
+      "id": "rec_1790323376994_di58x6",
+      "createdAt": "2026-09-25T08:02:56.994Z",
+      "userId": "usr_demo_1",
+      "type": "emergency_active",
+      "title": "Live Location Sharing is ACTIVE",
+      "titleTe": "ప్రత్యక్ష స్థాన భాగస్వామ్యం ప్రారంభించబడింది",
+      "message": "Shared with 2 trusted contacts. You can stop sharing anytime.",
+      "messageTe": "2 నమ్మకమైన వ్యక్తులకు మీ లొకేషన్ కనిపిస్తోంది. మీరు ఎప్పుడైనా ఆపవచ్చు.",
+      "isRead": false
+    },
+    {
+      "id": "rec_1790324159147_z0ok20",
+      "createdAt": "2026-09-25T08:15:59.147Z",
+      "userId": "usr_demo_1",
+      "type": "appointment_confirmed",
+      "title": "Session Confirmed",
+      "titleTe": "సెషన్ ఖరారైంది",
+      "message": "Your appointment with Dr. Radhika Sharma is confirmed for 28/9/2026.",
+      "messageTe": "Dr. Radhika Sharmaతో మీ అపాయింట్‌మెంట్ విజయవంతంగా బుక్ చేయబడింది.",
+      "isRead": false
+    },
+    {
+      "id": "rec_1790324159198_chy7mm",
+      "createdAt": "2026-09-25T08:15:59.198Z",
+      "userId": "usr_demo_1",
+      "type": "emergency_active",
+      "title": "Live Location Sharing is ACTIVE",
+      "titleTe": "ప్రత్యక్ష స్థాన భాగస్వామ్యం ప్రారంభించబడింది",
+      "message": "Shared with 2 trusted contacts. You can stop sharing anytime.",
+      "messageTe": "2 నమ్మకమైన వ్యక్తులకు మీ లొకేషన్ కనిపిస్తోంది. మీరు ఎప్పుడైనా ఆపవచ్చు.",
+      "isRead": false
+    },
+    {
+      "id": "rec_1790325489099_cike4y",
+      "createdAt": "2026-09-25T08:38:09.099Z",
+      "userId": "usr_demo_1",
+      "type": "appointment_confirmed",
+      "title": "Session Confirmed",
+      "titleTe": "సెషన్ ఖరారైంది",
+      "message": "Your appointment with Dr. Radhika Sharma is confirmed for 28/9/2026.",
+      "messageTe": "Dr. Radhika Sharmaతో మీ అపాయింట్‌మెంట్ విజయవంతంగా బుక్ చేయబడింది.",
+      "isRead": false
+    },
+    {
+      "id": "rec_1790325489130_asfk42",
+      "createdAt": "2026-09-25T08:38:09.130Z",
+      "userId": "usr_demo_1",
+      "type": "emergency_active",
+      "title": "Live Location Sharing is ACTIVE",
+      "titleTe": "ప్రత్యక్ష స్థాన భాగస్వామ్యం ప్రారంభించబడింది",
+      "message": "Shared with 2 trusted contacts. You can stop sharing anytime.",
+      "messageTe": "2 నమ్మకమైన వ్యక్తులకు మీ లొకేషన్ కనిపిస్తోంది. మీరు ఎప్పుడైనా ఆపవచ్చు.",
+      "isRead": false
+    }
+  ],
+  "organizations": [
+    {
+      "id": "org_1",
+      "name": "Hope Recovery & Survivor Alliance",
+      "type": "Non-Governmental Organization (NGO)",
+      "beneficiaryLimit": 250,
+      "activeBeneficiaries": 84,
+      "subscriptionTier": "enterprise",
+      "billingCycle": "Annual Sponsored",
+      "status": "Active",
+      "contactEmail": "admin@hopefoundation.org",
+      "city": "Hyderabad & Regional Outreach"
+    },
+    {
+      "id": "org_2",
+      "name": "Victim Rehabilitation Trust (Telangana Outreach)",
+      "type": "Social Support Institution",
+      "beneficiaryLimit": 100,
+      "activeBeneficiaries": 42,
+      "subscriptionTier": "professional",
+      "billingCycle": "Monthly",
+      "status": "Active",
+      "contactEmail": "support@victimrehab.org",
+      "city": "Warangal & Nizamabad"
+    }
+  ],
+  "subscriptions": [
+    {
+      "id": "sub_1",
+      "orgId": "org_1",
+      "tier": "enterprise",
+      "status": "Active",
+      "amount": 0,
+      "currency": "INR",
+      "notes": "Fully CSR Sponsored for Survivor Care - No Cost to Survivors",
+      "validUntil": "2027-12-31",
+      "invoiceUrl": "#inv-2026-csr-01"
+    }
+  ],
+  "audit_logs": [
+    {
+      "id": "aud_1",
+      "userId": "usr_demo_1",
+      "action": "LOGIN",
+      "entity": "session",
+      "entityId": "usr_demo_1",
+      "details": "Secure session initiated with English language preference",
+      "timestamp": "2026-09-25T07:00:00.000Z"
+    },
+    {
+      "id": "aud_1790322525752_aly1",
+      "userId": "usr_demo_1",
+      "action": "UPDATE",
+      "entity": "profiles",
+      "details": "Record updated",
+      "timestamp": "2026-09-25T07:48:45.752Z"
+    },
+    {
+      "id": "aud_1790322529670_yl4d",
+      "userId": "usr_demo_1",
+      "action": "UPDATE",
+      "entity": "profiles",
+      "details": "Record updated",
+      "timestamp": "2026-09-25T07:48:49.670Z"
+    },
+    {
+      "id": "aud_1790323376753_6jwp",
+      "userId": "usr_demo_1",
+      "action": "INSERT",
+      "entity": "checkins",
+      "entityId": "rec_1790323376753_v7j0dc",
+      "details": "Record created",
+      "timestamp": "2026-09-25T08:02:56.753Z"
+    },
+    {
+      "id": "aud_1790323376758_ujj4",
+      "userId": "usr_demo_1",
+      "action": "UPDATE",
+      "entity": "personal_baselines",
+      "entityId": "pbl_demo_1",
+      "details": "Record updated",
+      "timestamp": "2026-09-25T08:02:56.758Z"
+    },
+    {
+      "id": "aud_1790323376763_krdy",
+      "userId": "usr_demo_1",
+      "action": "INSERT",
+      "entity": "ai_support_signals",
+      "entityId": "sig_1790323376763",
+      "details": "Record created",
+      "timestamp": "2026-09-25T08:02:56.763Z"
+    },
+    {
+      "id": "aud_1790323376767_ozvv",
+      "userId": "usr_demo_1",
+      "action": "UPDATE",
+      "entity": "cases",
+      "entityId": "case_001",
+      "details": "Record updated",
+      "timestamp": "2026-09-25T08:02:56.767Z"
+    },
+    {
+      "id": "aud_1790323376772_glie",
+      "userId": "system",
+      "action": "INSERT",
+      "entity": "case_notes",
+      "entityId": "rec_1790323376772_j200oc",
+      "details": "Record created",
+      "timestamp": "2026-09-25T08:02:56.772Z"
+    },
+    {
+      "id": "aud_1790323376805_xl0o",
+      "userId": "usr_demo_1",
+      "action": "INSERT",
+      "entity": "checkins",
+      "entityId": "rec_1790323376805_k9gtrc",
+      "details": "Record created",
+      "timestamp": "2026-09-25T08:02:56.805Z"
+    },
+    {
+      "id": "aud_1790323376809_fcp0",
+      "userId": "usr_demo_1",
+      "action": "UPDATE",
+      "entity": "personal_baselines",
+      "entityId": "pbl_demo_1",
+      "details": "Record updated",
+      "timestamp": "2026-09-25T08:02:56.809Z"
+    },
+    {
+      "id": "aud_1790323376815_l9fi",
+      "userId": "usr_demo_1",
+      "action": "INSERT",
+      "entity": "ai_support_signals",
+      "entityId": "sig_1790323376815",
+      "details": "Record created",
+      "timestamp": "2026-09-25T08:02:56.815Z"
+    },
+    {
+      "id": "aud_1790323376870_ux16",
+      "userId": "usr_demo_1",
+      "action": "UPDATE",
+      "entity": "cases",
+      "entityId": "case_001",
+      "details": "Record updated",
+      "timestamp": "2026-09-25T08:02:56.870Z"
+    },
+    {
+      "id": "aud_1790323376874_lcpb",
+      "userId": "system",
+      "action": "INSERT",
+      "entity": "case_notes",
+      "entityId": "rec_1790323376874_y9oiut",
+      "details": "Record created",
+      "timestamp": "2026-09-25T08:02:56.874Z"
+    },
+    {
+      "id": "aud_1790323376899_e0df",
+      "userId": "usr_demo_1",
+      "action": "UPDATE",
+      "entity": "habit_logs",
+      "entityId": "hlg_1",
+      "details": "Record updated",
+      "timestamp": "2026-09-25T08:02:56.899Z"
+    },
+    {
+      "id": "aud_1790323376903_lp4p",
+      "userId": "usr_demo_1",
+      "action": "UPDATE",
+      "entity": "habits",
+      "entityId": "hbt_1",
+      "details": "Record updated",
+      "timestamp": "2026-09-25T08:02:56.903Z"
+    },
+    {
+      "id": "aud_1790323376931_7224",
+      "userId": "usr_demo_1",
+      "action": "INSERT",
+      "entity": "hobby_activity_logs",
+      "entityId": "rec_1790323376931_ejkn8u",
+      "details": "Record created",
+      "timestamp": "2026-09-25T08:02:56.931Z"
+    },
+    {
+      "id": "aud_1790323376935_1rqx",
+      "userId": "usr_demo_1",
+      "action": "UPDATE",
+      "entity": "hobbies",
+      "entityId": "hby_1",
+      "details": "Record updated",
+      "timestamp": "2026-09-25T08:02:56.935Z"
+    },
+    {
+      "id": "aud_1790323376969_397p",
+      "userId": "usr_demo_1",
+      "action": "INSERT",
+      "entity": "appointments",
+      "entityId": "rec_1790323376969_76nmbl",
+      "details": "Record created",
+      "timestamp": "2026-09-25T08:02:56.969Z"
+    },
+    {
+      "id": "aud_1790323376973_4z1d",
+      "userId": "usr_demo_1",
+      "action": "INSERT",
+      "entity": "notifications",
+      "entityId": "rec_1790323376973_9q4n9p",
+      "details": "Record created",
+      "timestamp": "2026-09-25T08:02:56.973Z"
+    },
+    {
+      "id": "aud_1790323376990_ys4p",
+      "userId": "usr_demo_1",
+      "action": "INSERT",
+      "entity": "emergency_sessions",
+      "entityId": "rec_1790323376990_3yn8ek",
+      "details": "Record created",
+      "timestamp": "2026-09-25T08:02:56.990Z"
+    },
+    {
+      "id": "aud_1790323376994_whf2",
+      "userId": "usr_demo_1",
+      "action": "INSERT",
+      "entity": "notifications",
+      "entityId": "rec_1790323376994_di58x6",
+      "details": "Record created",
+      "timestamp": "2026-09-25T08:02:56.994Z"
+    },
+    {
+      "id": "aud_1790323377003_dox3",
+      "userId": "usr_demo_1",
+      "action": "UPDATE",
+      "entity": "emergency_sessions",
+      "entityId": "rec_1790323376990_3yn8ek",
+      "details": "Record updated",
+      "timestamp": "2026-09-25T08:02:57.003Z"
+    },
+    {
+      "id": "aud_1790323377069_3jf4",
+      "userId": "system",
+      "action": "INSERT",
+      "entity": "case_notes",
+      "entityId": "rec_1790323377069_mc7ukg",
+      "details": "Record created",
+      "timestamp": "2026-09-25T08:02:57.069Z"
+    },
+    {
+      "id": "aud_1790323377073_wcqo",
+      "userId": "usr_demo_1",
+      "action": "UPDATE",
+      "entity": "cases",
+      "entityId": "case_001",
+      "details": "Record updated",
+      "timestamp": "2026-09-25T08:02:57.073Z"
+    },
+    {
+      "id": "aud_1790324158731_h3px",
+      "userId": "usr_demo_1",
+      "action": "INSERT",
+      "entity": "checkins",
+      "entityId": "rec_1790324158731_cniwl1",
+      "details": "Record created",
+      "timestamp": "2026-09-25T08:15:58.731Z"
+    },
+    {
+      "id": "aud_1790324158747_lxgw",
+      "userId": "usr_demo_1",
+      "action": "UPDATE",
+      "entity": "personal_baselines",
+      "entityId": "pbl_demo_1",
+      "details": "Record updated",
+      "timestamp": "2026-09-25T08:15:58.748Z"
+    },
+    {
+      "id": "aud_1790324158764_mdfx",
+      "userId": "usr_demo_1",
+      "action": "INSERT",
+      "entity": "ai_support_signals",
+      "entityId": "sig_1790324158764",
+      "details": "Record created",
+      "timestamp": "2026-09-25T08:15:58.764Z"
+    },
+    {
+      "id": "aud_1790324158791_w52g",
+      "userId": "usr_demo_1",
+      "action": "UPDATE",
+      "entity": "cases",
+      "entityId": "case_001",
+      "details": "Record updated",
+      "timestamp": "2026-09-25T08:15:58.797Z"
+    },
+    {
+      "id": "aud_1790324158814_2oi2",
+      "userId": "system",
+      "action": "INSERT",
+      "entity": "case_notes",
+      "entityId": "rec_1790324158814_pszgvt",
+      "details": "Record created",
+      "timestamp": "2026-09-25T08:15:58.814Z"
+    },
+    {
+      "id": "aud_1790324158859_lk15",
+      "userId": "usr_demo_1",
+      "action": "INSERT",
+      "entity": "checkins",
+      "entityId": "rec_1790324158859_3vk459",
+      "details": "Record created",
+      "timestamp": "2026-09-25T08:15:58.859Z"
+    },
+    {
+      "id": "aud_1790324158882_jc49",
+      "userId": "usr_demo_1",
+      "action": "UPDATE",
+      "entity": "personal_baselines",
+      "entityId": "pbl_demo_1",
+      "details": "Record updated",
+      "timestamp": "2026-09-25T08:15:58.882Z"
+    },
+    {
+      "id": "aud_1790324158902_zc03",
+      "userId": "usr_demo_1",
+      "action": "INSERT",
+      "entity": "ai_support_signals",
+      "entityId": "sig_1790324158902",
+      "details": "Record created",
+      "timestamp": "2026-09-25T08:15:58.902Z"
+    },
+    {
+      "id": "aud_1790324158935_56g4",
+      "userId": "usr_demo_1",
+      "action": "UPDATE",
+      "entity": "cases",
+      "entityId": "case_001",
+      "details": "Record updated",
+      "timestamp": "2026-09-25T08:15:58.935Z"
+    },
+    {
+      "id": "aud_1790324158959_4j1o",
+      "userId": "system",
+      "action": "INSERT",
+      "entity": "case_notes",
+      "entityId": "rec_1790324158959_aaph6w",
+      "details": "Record created",
+      "timestamp": "2026-09-25T08:15:58.959Z"
+    },
+    {
+      "id": "aud_1790324158993_wjpb",
+      "userId": "usr_demo_1",
+      "action": "UPDATE",
+      "entity": "habit_logs",
+      "entityId": "hlg_1",
+      "details": "Record updated",
+      "timestamp": "2026-09-25T08:15:58.993Z"
+    },
+    {
+      "id": "aud_1790324159007_s0sw",
+      "userId": "usr_demo_1",
+      "action": "UPDATE",
+      "entity": "habits",
+      "entityId": "hbt_1",
+      "details": "Record updated",
+      "timestamp": "2026-09-25T08:15:59.007Z"
+    },
+    {
+      "id": "aud_1790324159043_buwc",
+      "userId": "usr_demo_1",
+      "action": "INSERT",
+      "entity": "hobby_activity_logs",
+      "entityId": "rec_1790324159043_q7de2o",
+      "details": "Record created",
+      "timestamp": "2026-09-25T08:15:59.043Z"
+    },
+    {
+      "id": "aud_1790324159068_6nqu",
+      "userId": "usr_demo_1",
+      "action": "UPDATE",
+      "entity": "hobbies",
+      "entityId": "hby_1",
+      "details": "Record updated",
+      "timestamp": "2026-09-25T08:15:59.068Z"
+    },
+    {
+      "id": "aud_1790324159135_umm7",
+      "userId": "usr_demo_1",
+      "action": "INSERT",
+      "entity": "appointments",
+      "entityId": "rec_1790324159135_a2k2k7",
+      "details": "Record created",
+      "timestamp": "2026-09-25T08:15:59.135Z"
+    },
+    {
+      "id": "aud_1790324159147_hg2f",
+      "userId": "usr_demo_1",
+      "action": "INSERT",
+      "entity": "notifications",
+      "entityId": "rec_1790324159147_z0ok20",
+      "details": "Record created",
+      "timestamp": "2026-09-25T08:15:59.147Z"
+    },
+    {
+      "id": "aud_1790324159184_9fwe",
+      "userId": "usr_demo_1",
+      "action": "INSERT",
+      "entity": "emergency_sessions",
+      "entityId": "rec_1790324159184_ivvwt8",
+      "details": "Record created",
+      "timestamp": "2026-09-25T08:15:59.184Z"
+    },
+    {
+      "id": "aud_1790324159198_sbwu",
+      "userId": "usr_demo_1",
+      "action": "INSERT",
+      "entity": "notifications",
+      "entityId": "rec_1790324159198_chy7mm",
+      "details": "Record created",
+      "timestamp": "2026-09-25T08:15:59.198Z"
+    },
+    {
+      "id": "aud_1790324159212_hngt",
+      "userId": "usr_demo_1",
+      "action": "UPDATE",
+      "entity": "emergency_sessions",
+      "entityId": "rec_1790324159184_ivvwt8",
+      "details": "Record updated",
+      "timestamp": "2026-09-25T08:15:59.212Z"
+    },
+    {
+      "id": "aud_1790324159276_exea",
+      "userId": "system",
+      "action": "INSERT",
+      "entity": "case_notes",
+      "entityId": "rec_1790324159276_8zyl1u",
+      "details": "Record created",
+      "timestamp": "2026-09-25T08:15:59.276Z"
+    },
+    {
+      "id": "aud_1790324159293_opda",
+      "userId": "usr_demo_1",
+      "action": "UPDATE",
+      "entity": "cases",
+      "entityId": "case_001",
+      "details": "Record updated",
+      "timestamp": "2026-09-25T08:15:59.293Z"
+    },
+    {
+      "id": "aud_1790325488942_dixs",
+      "userId": "usr_demo_1",
+      "action": "INSERT",
+      "entity": "checkins",
+      "entityId": "rec_1790325488942_g2gy3z",
+      "details": "Record created",
+      "timestamp": "2026-09-25T08:38:08.942Z"
+    },
+    {
+      "id": "aud_1790325488948_3xg3",
+      "userId": "usr_demo_1",
+      "action": "UPDATE",
+      "entity": "personal_baselines",
+      "entityId": "pbl_demo_1",
+      "details": "Record updated",
+      "timestamp": "2026-09-25T08:38:08.948Z"
+    },
+    {
+      "id": "aud_1790325488955_zpjz",
+      "userId": "usr_demo_1",
+      "action": "INSERT",
+      "entity": "ai_support_signals",
+      "entityId": "sig_1790325488955",
+      "details": "Record created",
+      "timestamp": "2026-09-25T08:38:08.955Z"
+    },
+    {
+      "id": "aud_1790325488960_5k6e",
+      "userId": "usr_demo_1",
+      "action": "UPDATE",
+      "entity": "cases",
+      "entityId": "case_001",
+      "details": "Record updated",
+      "timestamp": "2026-09-25T08:38:08.960Z"
+    },
+    {
+      "id": "aud_1790325488964_0ksl",
+      "userId": "system",
+      "action": "INSERT",
+      "entity": "case_notes",
+      "entityId": "rec_1790325488964_t4po5e",
+      "details": "Record created",
+      "timestamp": "2026-09-25T08:38:08.964Z"
+    },
+    {
+      "id": "aud_1790325488979_ly3i",
+      "userId": "usr_demo_1",
+      "action": "INSERT",
+      "entity": "checkins",
+      "entityId": "rec_1790325488979_ygku8k",
+      "details": "Record created",
+      "timestamp": "2026-09-25T08:38:08.979Z"
+    },
+    {
+      "id": "aud_1790325488986_b47s",
+      "userId": "usr_demo_1",
+      "action": "UPDATE",
+      "entity": "personal_baselines",
+      "entityId": "pbl_demo_1",
+      "details": "Record updated",
+      "timestamp": "2026-09-25T08:38:08.986Z"
+    },
+    {
+      "id": "aud_1790325488992_by37",
+      "userId": "usr_demo_1",
+      "action": "INSERT",
+      "entity": "ai_support_signals",
+      "entityId": "sig_1790325488992",
+      "details": "Record created",
+      "timestamp": "2026-09-25T08:38:08.992Z"
+    },
+    {
+      "id": "aud_1790325488997_6hau",
+      "userId": "usr_demo_1",
+      "action": "UPDATE",
+      "entity": "cases",
+      "entityId": "case_001",
+      "details": "Record updated",
+      "timestamp": "2026-09-25T08:38:08.997Z"
+    },
+    {
+      "id": "aud_1790325489004_sdfk",
+      "userId": "system",
+      "action": "INSERT",
+      "entity": "case_notes",
+      "entityId": "rec_1790325489003_6tu77h",
+      "details": "Record created",
+      "timestamp": "2026-09-25T08:38:09.004Z"
+    },
+    {
+      "id": "aud_1790325489036_zte6",
+      "userId": "usr_demo_1",
+      "action": "UPDATE",
+      "entity": "habit_logs",
+      "entityId": "hlg_1",
+      "details": "Record updated",
+      "timestamp": "2026-09-25T08:38:09.036Z"
+    },
+    {
+      "id": "aud_1790325489041_w3tc",
+      "userId": "usr_demo_1",
+      "action": "UPDATE",
+      "entity": "habits",
+      "entityId": "hbt_1",
+      "details": "Record updated",
+      "timestamp": "2026-09-25T08:38:09.041Z"
+    },
+    {
+      "id": "aud_1790325489058_tvly",
+      "userId": "usr_demo_1",
+      "action": "INSERT",
+      "entity": "hobby_activity_logs",
+      "entityId": "rec_1790325489058_ukymnr",
+      "details": "Record created",
+      "timestamp": "2026-09-25T08:38:09.058Z"
+    },
+    {
+      "id": "aud_1790325489063_jj31",
+      "userId": "usr_demo_1",
+      "action": "UPDATE",
+      "entity": "hobbies",
+      "entityId": "hby_1",
+      "details": "Record updated",
+      "timestamp": "2026-09-25T08:38:09.063Z"
+    },
+    {
+      "id": "aud_1790325489093_7i5c",
+      "userId": "usr_demo_1",
+      "action": "INSERT",
+      "entity": "appointments",
+      "entityId": "rec_1790325489093_rodwf3",
+      "details": "Record created",
+      "timestamp": "2026-09-25T08:38:09.093Z"
+    },
+    {
+      "id": "aud_1790325489099_wf9b",
+      "userId": "usr_demo_1",
+      "action": "INSERT",
+      "entity": "notifications",
+      "entityId": "rec_1790325489099_cike4y",
+      "details": "Record created",
+      "timestamp": "2026-09-25T08:38:09.099Z"
+    },
+    {
+      "id": "aud_1790325489125_20vl",
+      "userId": "usr_demo_1",
+      "action": "INSERT",
+      "entity": "emergency_sessions",
+      "entityId": "rec_1790325489125_wb3gef",
+      "details": "Record created",
+      "timestamp": "2026-09-25T08:38:09.125Z"
+    },
+    {
+      "id": "aud_1790325489130_ggzz",
+      "userId": "usr_demo_1",
+      "action": "INSERT",
+      "entity": "notifications",
+      "entityId": "rec_1790325489130_asfk42",
+      "details": "Record created",
+      "timestamp": "2026-09-25T08:38:09.130Z"
+    },
+    {
+      "id": "aud_1790325489155_vyat",
+      "userId": "usr_demo_1",
+      "action": "UPDATE",
+      "entity": "emergency_sessions",
+      "entityId": "rec_1790325489125_wb3gef",
+      "details": "Record updated",
+      "timestamp": "2026-09-25T08:38:09.155Z"
+    },
+    {
+      "id": "aud_1790325489191_if9m",
+      "userId": "system",
+      "action": "INSERT",
+      "entity": "case_notes",
+      "entityId": "rec_1790325489191_uixmsz",
+      "details": "Record created",
+      "timestamp": "2026-09-25T08:38:09.191Z"
+    },
+    {
+      "id": "aud_1790325489197_a10x",
+      "userId": "usr_demo_1",
+      "action": "UPDATE",
+      "entity": "cases",
+      "entityId": "case_001",
+      "details": "Record updated",
+      "timestamp": "2026-09-25T08:38:09.197Z"
+    }
+  ]
+}

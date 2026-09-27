@@ -1,0 +1,59 @@
+{
+  "expo": {
+    "name": "SAHARA",
+    "slug": "sahara-recovery",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "backgroundColor": "#070b10",
+      "resizeMode": "contain"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "care.sahara.mobile"
+    },
+    "android": {
+      "package": "care.sahara.mobile",
+      "adaptiveIcon": {
+        "backgroundColor": "#0b1118",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "permissions": [
+        "RECORD_AUDIO",
+        "CAMERA",
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "POST_NOTIFICATIONS"
+      ],
+      "predictiveBackGestureEnabled": false
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow SAHARA to access your location only when you explicitly activate emergency live-location sharing."
+        }
+      ],
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow SAHARA to access your camera for confidential tele-counseling video sessions."
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/icon.png",
+          "color": "#14b8a6"
+        }
+      ]
+    ],
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
